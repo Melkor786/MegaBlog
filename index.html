@@ -1,13 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqAPgklmi9Cwb4Djg9Tia7-o83NJ1qlP0iNQ&s" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MegaBlog</title>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      color: #333;
+      margin: 0;
+    }
+
+    #root {
+      width: 100vw; 
+      padding: 20px 0;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin-bottom: 20px;
+      overflow-x: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+  </div>
+</body>
 </html>
