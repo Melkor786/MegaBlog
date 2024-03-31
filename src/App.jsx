@@ -25,11 +25,11 @@ function App() {
 
   return !loading ? (
       <div className="w-full block">
-        <Header />
         <main>
+        <Header />
           <Outlet />
-        </main>
         <Footer />
+        </main>
     </div>
   ) : null;
 }
