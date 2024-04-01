@@ -16,7 +16,7 @@ function AllPosts() {
   }, []);
 
   // Filter posts written by the authenticated user
-  const userPosts = posts.filter(post => post.userId === userData.$id);
+  const userPosts = posts;//.filter(post => post.userId === userData.$id);
   
   if (userPosts.length === 0) {
     return (
